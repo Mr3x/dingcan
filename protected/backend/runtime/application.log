@@ -1,0 +1,95 @@
+2012/04/29 00:49:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "default"。' in E:\web\dingcan\framework\web\CWebApplication.php:280
+Stack trace:
+#0 E:\web\dingcan\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 E:\web\dingcan\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\web\dingcan\backend.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/dingcan/backend.php
+---
+2012/04/29 00:49:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "default"。' in E:\web\dingcan\framework\web\CWebApplication.php:280
+Stack trace:
+#0 E:\web\dingcan\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 E:\web\dingcan\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\web\dingcan\backend.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/dingcan/backend.php
+---
+2012/04/29 00:55:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "default"。' in E:\web\dingcan\framework\web\CWebApplication.php:280
+Stack trace:
+#0 E:\web\dingcan\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 E:\web\dingcan\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\web\dingcan\backend.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/dingcan/backend.php
+---
+2012/04/29 00:57:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "default"。' in E:\web\dingcan\framework\web\CWebApplication.php:280
+Stack trace:
+#0 E:\web\dingcan\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 E:\web\dingcan\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\web\dingcan\backend.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/dingcan/backend.php
+---
+2012/04/29 08:29:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "admin" 动作.' in E:\web\dingcan\framework\web\CController.php:484
+Stack trace:
+#0 E:\web\dingcan\framework\web\CController.php(271): CController->missingAction('admin')
+#1 E:\web\dingcan\framework\web\CWebApplication.php(276): CController->run('admin')
+#2 E:\web\dingcan\framework\web\CWebApplication.php(135): CWebApplication->runController('secure/admin')
+#3 E:\web\dingcan\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\web\dingcan\backend.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/dingcan/backend.php/secure/admin/
+---
+2012/04/29 11:17:42 [error] [php] Missing argument 2 for CClientScript::registerScript(), called in E:\web\dingcan\protected\backend\views\secure\login.php on line 3 and defined (E:\web\dingcan\framework\web\CClientScript.php:603)
+Stack trace:
+#0 E:\web\dingcan\framework\web\CBaseController.php(96): SecureController->renderInternal()
+#1 E:\web\dingcan\framework\web\CController.php(870): SecureController->renderFile()
+#2 E:\web\dingcan\framework\web\CController.php(783): SecureController->renderPartial()
+#3 E:\web\dingcan\protected\backend\controllers\SecureController.php(14): SecureController->render()
+#4 E:\web\dingcan\framework\web\actions\CInlineAction.php(50): SecureController->actionLogin()
+#5 E:\web\dingcan\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 E:\web\dingcan\framework\web\CController.php(287): SecureController->runAction()
+#7 E:\web\dingcan\framework\web\CController.php(266): SecureController->runActionWithFilters()
+#8 E:\web\dingcan\framework\web\CWebApplication.php(276): SecureController->run()
+#9 E:\web\dingcan\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 E:\web\dingcan\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 E:\web\dingcan\backend.php(14): CWebApplication->run()
+REQUEST_URI=/dingcan/backend.php/login
+2012/04/29 11:21:25 [error] [php] Missing argument 2 for CClientScript::registerScript(), called in E:\web\dingcan\protected\backend\views\secure\login.php on line 3 and defined (E:\web\dingcan\framework\web\CClientScript.php:603)
+Stack trace:
+#0 E:\web\dingcan\framework\web\CBaseController.php(96): SecureController->renderInternal()
+#1 E:\web\dingcan\framework\web\CController.php(870): SecureController->renderFile()
+#2 E:\web\dingcan\framework\web\CController.php(783): SecureController->renderPartial()
+#3 E:\web\dingcan\protected\backend\controllers\SecureController.php(14): SecureController->render()
+#4 E:\web\dingcan\framework\web\actions\CInlineAction.php(50): SecureController->actionLogin()
+#5 E:\web\dingcan\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 E:\web\dingcan\framework\web\CController.php(287): SecureController->runAction()
+#7 E:\web\dingcan\framework\web\CController.php(266): SecureController->runActionWithFilters()
+#8 E:\web\dingcan\framework\web\CWebApplication.php(276): SecureController->run()
+#9 E:\web\dingcan\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 E:\web\dingcan\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 E:\web\dingcan\backend.php(14): CWebApplication->run()
+REQUEST_URI=/dingcan/backend.php/login
+2012/04/29 13:26:25 [error] [php] Undefined variable: cs (E:\web\dingcan\protected\backend\components\DingCanUtils.php:39)
+Stack trace:
+#0 E:\web\dingcan\framework\web\CBaseController.php(96): SecureController->renderInternal()
+#1 E:\web\dingcan\framework\web\CController.php(870): SecureController->renderFile()
+#2 E:\web\dingcan\framework\web\CController.php(783): SecureController->renderPartial()
+#3 E:\web\dingcan\protected\backend\controllers\SecureController.php(14): SecureController->render()
+#4 E:\web\dingcan\framework\web\actions\CInlineAction.php(50): SecureController->actionLogin()
+#5 E:\web\dingcan\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 E:\web\dingcan\framework\web\CController.php(287): SecureController->runAction()
+#7 E:\web\dingcan\framework\web\CController.php(266): SecureController->runActionWithFilters()
+#8 E:\web\dingcan\framework\web\CWebApplication.php(276): SecureController->run()
+#9 E:\web\dingcan\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 E:\web\dingcan\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 E:\web\dingcan\backend.php(14): CWebApplication->run()
+REQUEST_URI=/dingcan/backend.php/login
+2012/04/29 16:18:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "login"。' in E:\web\dingcan\framework\web\CWebApplication.php:280
+Stack trace:
+#0 E:\web\dingcan\framework\web\CWebApplication.php(135): CWebApplication->runController('login')
+#1 E:\web\dingcan\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\web\dingcan\backend.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/dingcan/backend.php/login
+---

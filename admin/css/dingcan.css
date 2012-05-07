@@ -1,0 +1,37 @@
+@charset "utf-8";
+/**
+ * 	系统样式表
+ * 
+ * @author 不会飞的羊
+ */
+
+
+/**
+ * 	登录，注册以及密码找回页面样式
+ */
+#secure {
+	background-color: #888;
+}
+#secure #logo {
+	margin: -4px;
+}
+#secure .modal {
+	width: 320px;
+	margin: -150px 0 0 -160px;
+}
+#secure .nav-tabs {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-bottom: 1px solid #eee;
+}
+#login .login-btm {
+	border-top: 1px solid #ccc;
+	padding: 4px 0 0;
+}
+#login .rememberMe {
+	width: 70%;
+}
+#login .rememberMe label {
+	margin-left: 18px;
+}
