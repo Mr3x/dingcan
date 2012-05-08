@@ -1,4 +1,5 @@
 <?php
+// ****mr
 $cs = Yii::app()->clientScript;
 DingCanUtils::Css($cs)
 	->registerFile(Yii::app()->baseUrl.'/global/bootstrap/css/bootstrap.css')
